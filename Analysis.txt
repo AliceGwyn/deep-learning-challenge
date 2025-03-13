@@ -1,0 +1,5 @@
+In this analysis, we are looking at campaigns that Alphabet Soup has backed, and determining if we are able to predict whether or not a campaign will be successful. 
+
+Our target is whether or not a campaign succeeded, in this case represented by the "IS_SUCCESSFUL" column in the data. We are using features such as classification, application type, income amount, and ask amount to make this determination. We also removed the columns "EIN" and "NAME", as these are not features and don't contribute anything useful to our analysis.
+
+For my initial model, I used two hidden layers with 9 and 15 neurons, respectively, both using the relu activation function, and an output layer using the sigmoid function. In subsequent models I experimented with different numbers of layers and neurons, and using the tanh activation function. Unfortunately, I was not able to achieve target model performance. With more time to devote to this endeavor, I'm sure I would have been able to increase the model's accuracy above 75%.
